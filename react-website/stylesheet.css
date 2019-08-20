@@ -6,12 +6,16 @@ body {
     font-weight: 300;
 }
 
-header {
+.nav-header {
     background-color: #20232a;
     height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
-.header-wrapper {
+.nav-header-content {
     padding-left: 20px;
     padding-right: 20px;
     width: 90%;
@@ -23,17 +27,17 @@ nav {
     margin-right: 35px;
 }
 
-ul {
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-ul li {
+nav ul li {
     display: inline;
 }
 
-a {
+header a {
     color: #fff;
     text-decoration: none;
     padding-left: 20px;
@@ -41,7 +45,7 @@ a {
     line-height: 60px;
 }
 
-ul li a:hover {
+nav ul li a:hover {
     color: #61dafb;
 }
 
@@ -80,4 +84,70 @@ input:focus {
     outline: 0;
     background-color: #373940;
     border-radius: 0.25rem;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+.content-header {
+    background-color: #282c34;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 85px;
+    text-align: center;
+    position: relative;
+}
+
+.content-header::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-image: url("react-logo-content-header.svg");
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: 100% 30px;
+    opacity: 0.05;
+}
+
+.content-header-wrapper {
+    position: relative;
+}
+
+.content-header-wrapper h1 {
+    font-size: 60px;
+    color: #61dafb;
+    margin: 0;
+}
+
+.content-header-wrapper p {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 65px;
+}
+
+#get-started-btn {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #61dafb;
+    color: #000000;
+    font-weight: 400;
+}
+
+#get-started-btn:hover {
+    background-color: #fff;
+}
+
+#take-tutorial-link {
+    font-size: 20px;
+    color: #61dafb;
+    font-weight: 400;
+}
+
+#take-tutorial-link:hover {
+    color: #fff;
 }
