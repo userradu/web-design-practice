@@ -184,3 +184,53 @@ input:focus {
     font-weight: 400;
     font-style: normal;
 }
+
+.footer-wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+footer {
+    background-color: #20232a;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+footer section {
+    display: inline-block;
+    width: calc(33% - 40px);
+    vertical-align: top;
+    padding-left: 40px;
+}
+
+.authorship-info img {
+    width: 160px;
+}
+
+.authorship-info p {
+    color: #999;
+    padding-top: 15px;
+}
+
+.docs-links .title,
+.channels-links .title {
+    color: #999;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 3;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    line-height: 2;
+    font-weight: 400;
+}
