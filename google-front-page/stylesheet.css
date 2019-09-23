@@ -1,0 +1,138 @@
+header {
+    position: relative;
+}
+
+.open-apps-btn {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 100px;
+    background-image: url('img/i1_1967ca6a.png');
+    background-repeat: no-repeat;
+    background-position: -133px -37px;
+    opacity: 0.55;
+}
+
+.open-apps-btn:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.apps-container {
+    position: absolute;
+    top: 47px;
+    right: 45px;
+    height: 496px;
+    width: 320px;
+    display: none;
+}
+
+.triangle-outer {
+    width: 0;
+    height: 0;
+    border-left: 8.5px solid transparent;
+    border-right: 8.5px solid transparent;
+    border-bottom: 8.5px solid rgba(0,0,0,.2);
+    position: absolute;
+    right: 63px;
+    top: -8px;
+}
+
+.triangle-inner {
+    width: 0;
+    height: 0;
+    border-left: 8.5px solid transparent;
+    border-right: 8.5px solid transparent;
+    border-bottom: 8.5px solid #fff;
+    position: absolute;
+    right: 63px;
+    top: -7px;
+}
+
+.apps-list {
+    border: 1px solid #ccc;
+    border-color: rgba(0,0,0,.2);
+    border-radius: 2px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.apps-list ul {
+    list-style: none;
+}
+
+.apps-list ul li {
+    display: inline-block;
+    padding: 3px 10px;
+}
+
+.apps-list ul li:hover {
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+}
+
+.account {
+    display: inline-block;
+    background-size: 64px;
+    width: 64px;
+    height: 64px;
+    background-image: url('img/account.png');
+}
+
+.app-img {
+    display: inline-block;
+    background-size: 64px;
+    width: 64px;
+    height: 64px;
+    background-image: url('img/app-icons.png');
+    background-repeat: no-repeat;
+}
+
+.app-img.search {
+    background-position: 0px -137px;
+}
+
+.app-img.maps {
+    background-position: 0px -1033px;
+}
+
+.app-img.youtube {
+    background-position: 0px -1446px;
+}
+
+.app-img.play {
+    background-position: 0px -753px;
+}
+
+.app-img.gmail {
+    background-position: 0px -2133px;
+}
+
+.app-img.contacts {
+    background-position: 0px -2615px;
+}
+
+.app-img.drive {
+    background-position: 0px 0px;
+}
+
+.app-img.calendar {
+    background-position: 0px -1791px;
+}
+
+.app-img.translate {
+    background-position: 0px -1580px;
+}
+
+.app-img.photos {
+    background-position: 0px -2065px;
+}
+
+.app-name {
+    display: block;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    text-align: center;
+}
